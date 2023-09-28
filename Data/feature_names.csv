@@ -1,0 +1,580 @@
+feature,feature_index
+angle NOSE-BASE_NECK-RIGHT_FRONT_PAW,feature_0
+angle NOSE-BASE_NECK-LEFT_FRONT_PAW,feature_1
+angle RIGHT_FRONT_PAW-BASE_NECK-CENTER_SPINE,feature_2
+angle LEFT_FRONT_PAW-BASE_NECK-CENTER_SPINE,feature_3
+angle BASE_NECK-CENTER_SPINE-BASE_TAIL,feature_4
+angle RIGHT_REAR_PAW-BASE_TAIL-CENTER_SPINE,feature_5
+angle LEFT_REAR_PAW-BASE_TAIL-CENTER_SPINE,feature_6
+angle RIGHT_REAR_PAW-BASE_TAIL-MID_TAIL,feature_7
+angle LEFT_REAR_PAW-BASE_TAIL-MID_TAIL,feature_8
+angle CENTER_SPINE-BASE_TAIL-MID_TAIL,feature_9
+angle BASE_TAIL-MID_TAIL-TIP_TAIL,feature_10
+angular_velocity,feature_11
+base tail velocity direction,feature_12
+base tail velocity magnitude,feature_13
+bearing to corner,feature_14
+centroid_velocity_dir,feature_15
+centroid_velocity_mag,feature_16
+distance to corner,feature_17
+distance to lixit,feature_18
+left front paw velocity direction,feature_19
+left front paw velocity magnitude,feature_20
+nose velocity direction,feature_21
+nose velocity magnitude,feature_22
+NOSE-LEFT_EAR,feature_23
+NOSE-RIGHT_EAR,feature_24
+NOSE-BASE_NECK,feature_25
+NOSE-LEFT_FRONT_PAW,feature_26
+NOSE-RIGHT_FRONT_PAW,feature_27
+NOSE-CENTER_SPINE,feature_28
+NOSE-LEFT_REAR_PAW,feature_29
+NOSE-RIGHT_REAR_PAW,feature_30
+NOSE-BASE_TAIL,feature_31
+NOSE-MID_TAIL,feature_32
+NOSE-TIP_TAIL,feature_33
+LEFT_EAR-RIGHT_EAR,feature_34
+LEFT_EAR-BASE_NECK,feature_35
+LEFT_EAR-LEFT_FRONT_PAW,feature_36
+LEFT_EAR-RIGHT_FRONT_PAW,feature_37
+LEFT_EAR-CENTER_SPINE,feature_38
+LEFT_EAR-LEFT_REAR_PAW,feature_39
+LEFT_EAR-RIGHT_REAR_PAW,feature_40
+LEFT_EAR-BASE_TAIL,feature_41
+LEFT_EAR-MID_TAIL,feature_42
+LEFT_EAR-TIP_TAIL,feature_43
+RIGHT_EAR-BASE_NECK,feature_44
+RIGHT_EAR-LEFT_FRONT_PAW,feature_45
+RIGHT_EAR-RIGHT_FRONT_PAW,feature_46
+RIGHT_EAR-CENTER_SPINE,feature_47
+RIGHT_EAR-LEFT_REAR_PAW,feature_48
+RIGHT_EAR-RIGHT_REAR_PAW,feature_49
+RIGHT_EAR-BASE_TAIL,feature_50
+RIGHT_EAR-MID_TAIL,feature_51
+RIGHT_EAR-TIP_TAIL,feature_52
+BASE_NECK-LEFT_FRONT_PAW,feature_53
+BASE_NECK-RIGHT_FRONT_PAW,feature_54
+BASE_NECK-CENTER_SPINE,feature_55
+BASE_NECK-LEFT_REAR_PAW,feature_56
+BASE_NECK-RIGHT_REAR_PAW,feature_57
+BASE_NECK-BASE_TAIL,feature_58
+BASE_NECK-MID_TAIL,feature_59
+BASE_NECK-TIP_TAIL,feature_60
+LEFT_FRONT_PAW-RIGHT_FRONT_PAW,feature_61
+LEFT_FRONT_PAW-CENTER_SPINE,feature_62
+LEFT_FRONT_PAW-LEFT_REAR_PAW,feature_63
+LEFT_FRONT_PAW-RIGHT_REAR_PAW,feature_64
+LEFT_FRONT_PAW-BASE_TAIL,feature_65
+LEFT_FRONT_PAW-MID_TAIL,feature_66
+LEFT_FRONT_PAW-TIP_TAIL,feature_67
+RIGHT_FRONT_PAW-CENTER_SPINE,feature_68
+RIGHT_FRONT_PAW-LEFT_REAR_PAW,feature_69
+RIGHT_FRONT_PAW-RIGHT_REAR_PAW,feature_70
+RIGHT_FRONT_PAW-BASE_TAIL,feature_71
+RIGHT_FRONT_PAW-MID_TAIL,feature_72
+RIGHT_FRONT_PAW-TIP_TAIL,feature_73
+CENTER_SPINE-LEFT_REAR_PAW,feature_74
+CENTER_SPINE-RIGHT_REAR_PAW,feature_75
+CENTER_SPINE-BASE_TAIL,feature_76
+CENTER_SPINE-MID_TAIL,feature_77
+CENTER_SPINE-TIP_TAIL,feature_78
+LEFT_REAR_PAW-RIGHT_REAR_PAW,feature_79
+LEFT_REAR_PAW-BASE_TAIL,feature_80
+LEFT_REAR_PAW-MID_TAIL,feature_81
+LEFT_REAR_PAW-TIP_TAIL,feature_82
+RIGHT_REAR_PAW-BASE_TAIL,feature_83
+RIGHT_REAR_PAW-MID_TAIL,feature_84
+RIGHT_REAR_PAW-TIP_TAIL,feature_85
+BASE_TAIL-MID_TAIL,feature_86
+BASE_TAIL-TIP_TAIL,feature_87
+MID_TAIL-TIP_TAIL,feature_88
+NOSE point mask,feature_89
+LEFT_EAR point mask,feature_90
+RIGHT_EAR point mask,feature_91
+BASE_NECK point mask,feature_92
+LEFT_FRONT_PAW point mask,feature_93
+RIGHT_FRONT_PAW point mask,feature_94
+CENTER_SPINE point mask,feature_95
+LEFT_REAR_PAW point mask,feature_96
+RIGHT_REAR_PAW point mask,feature_97
+BASE_TAIL point mask,feature_98
+MID_TAIL point mask,feature_99
+TIP_TAIL point mask,feature_100
+NOSE speed,feature_101
+LEFT_EAR speed,feature_102
+RIGHT_EAR speed,feature_103
+BASE_NECK speed,feature_104
+LEFT_FRONT_PAW speed,feature_105
+RIGHT_FRONT_PAW speed,feature_106
+CENTER_SPINE speed,feature_107
+LEFT_REAR_PAW speed,feature_108
+RIGHT_REAR_PAW speed,feature_109
+BASE_TAIL speed,feature_110
+MID_TAIL speed,feature_111
+TIP_TAIL speed,feature_112
+right front paw velocity direction,feature_113
+right front paw velocity magnitude,feature_114
+mean angle BASE_NECK-CENTER_SPINE-BASE_TAIL,feature_115
+std_dev angle BASE_NECK-CENTER_SPINE-BASE_TAIL,feature_116
+mean angle BASE_TAIL-MID_TAIL-TIP_TAIL,feature_117
+std_dev angle BASE_TAIL-MID_TAIL-TIP_TAIL,feature_118
+mean angle CENTER_SPINE-BASE_TAIL-MID_TAIL,feature_119
+std_dev angle CENTER_SPINE-BASE_TAIL-MID_TAIL,feature_120
+mean angle LEFT_FRONT_PAW-BASE_NECK-CENTER_SPINE,feature_121
+std_dev angle LEFT_FRONT_PAW-BASE_NECK-CENTER_SPINE,feature_122
+mean angle LEFT_REAR_PAW-BASE_TAIL-CENTER_SPINE,feature_123
+std_dev angle LEFT_REAR_PAW-BASE_TAIL-CENTER_SPINE,feature_124
+mean angle LEFT_REAR_PAW-BASE_TAIL-MID_TAIL,feature_125
+std_dev angle LEFT_REAR_PAW-BASE_TAIL-MID_TAIL,feature_126
+mean angle NOSE-BASE_NECK-LEFT_FRONT_PAW,feature_127
+std_dev angle NOSE-BASE_NECK-LEFT_FRONT_PAW,feature_128
+mean angle NOSE-BASE_NECK-RIGHT_FRONT_PAW,feature_129
+std_dev angle NOSE-BASE_NECK-RIGHT_FRONT_PAW,feature_130
+mean angle RIGHT_FRONT_PAW-BASE_NECK-CENTER_SPINE,feature_131
+std_dev angle RIGHT_FRONT_PAW-BASE_NECK-CENTER_SPINE,feature_132
+mean angle RIGHT_REAR_PAW-BASE_TAIL-CENTER_SPINE,feature_133
+std_dev angle RIGHT_REAR_PAW-BASE_TAIL-CENTER_SPINE,feature_134
+mean angle RIGHT_REAR_PAW-BASE_TAIL-MID_TAIL,feature_135
+std_dev angle RIGHT_REAR_PAW-BASE_TAIL-MID_TAIL,feature_136
+max angular_velocity,feature_137
+mean angular_velocity,feature_138
+median angular_velocity,feature_139
+min angular_velocity,feature_140
+std_dev angular_velocity,feature_141
+mean base tail velocity direction,feature_142
+std_dev base tail velocity direction,feature_143
+max base tail velocity magnitude,feature_144
+mean base tail velocity magnitude,feature_145
+median base tail velocity magnitude,feature_146
+min base tail velocity magnitude,feature_147
+std_dev base tail velocity magnitude,feature_148
+mean bearing to corner,feature_149
+std_dev bearing to corner,feature_150
+mean centroid_velocity_dir,feature_151
+std_dev centroid_velocity_dir,feature_152
+max centroid_velocity_mag,feature_153
+mean centroid_velocity_mag,feature_154
+median centroid_velocity_mag,feature_155
+min centroid_velocity_mag,feature_156
+std_dev centroid_velocity_mag,feature_157
+max distance to corner,feature_158
+mean distance to corner,feature_159
+median distance to corner,feature_160
+min distance to corner,feature_161
+std_dev distance to corner,feature_162
+max distance to lixit,feature_163
+mean distance to lixit,feature_164
+median distance to lixit,feature_165
+min distance to lixit,feature_166
+std_dev distance to lixit,feature_167
+mean left front paw velocity direction,feature_168
+std_dev left front paw velocity direction,feature_169
+max left front paw velocity magnitude,feature_170
+mean left front paw velocity magnitude,feature_171
+median left front paw velocity magnitude,feature_172
+min left front paw velocity magnitude,feature_173
+std_dev left front paw velocity magnitude,feature_174
+mean nose velocity direction,feature_175
+std_dev nose velocity direction,feature_176
+max nose velocity magnitude,feature_177
+mean nose velocity magnitude,feature_178
+median nose velocity magnitude,feature_179
+min nose velocity magnitude,feature_180
+std_dev nose velocity magnitude,feature_181
+max BASE_NECK-BASE_TAIL,feature_182
+mean BASE_NECK-BASE_TAIL,feature_183
+median BASE_NECK-BASE_TAIL,feature_184
+min BASE_NECK-BASE_TAIL,feature_185
+std_dev BASE_NECK-BASE_TAIL,feature_186
+max BASE_NECK-CENTER_SPINE,feature_187
+mean BASE_NECK-CENTER_SPINE,feature_188
+median BASE_NECK-CENTER_SPINE,feature_189
+min BASE_NECK-CENTER_SPINE,feature_190
+std_dev BASE_NECK-CENTER_SPINE,feature_191
+max BASE_NECK-LEFT_FRONT_PAW,feature_192
+mean BASE_NECK-LEFT_FRONT_PAW,feature_193
+median BASE_NECK-LEFT_FRONT_PAW,feature_194
+min BASE_NECK-LEFT_FRONT_PAW,feature_195
+std_dev BASE_NECK-LEFT_FRONT_PAW,feature_196
+max BASE_NECK-LEFT_REAR_PAW,feature_197
+mean BASE_NECK-LEFT_REAR_PAW,feature_198
+median BASE_NECK-LEFT_REAR_PAW,feature_199
+min BASE_NECK-LEFT_REAR_PAW,feature_200
+std_dev BASE_NECK-LEFT_REAR_PAW,feature_201
+max BASE_NECK-MID_TAIL,feature_202
+mean BASE_NECK-MID_TAIL,feature_203
+median BASE_NECK-MID_TAIL,feature_204
+min BASE_NECK-MID_TAIL,feature_205
+std_dev BASE_NECK-MID_TAIL,feature_206
+max BASE_NECK-RIGHT_FRONT_PAW,feature_207
+mean BASE_NECK-RIGHT_FRONT_PAW,feature_208
+median BASE_NECK-RIGHT_FRONT_PAW,feature_209
+min BASE_NECK-RIGHT_FRONT_PAW,feature_210
+std_dev BASE_NECK-RIGHT_FRONT_PAW,feature_211
+max BASE_NECK-RIGHT_REAR_PAW,feature_212
+mean BASE_NECK-RIGHT_REAR_PAW,feature_213
+median BASE_NECK-RIGHT_REAR_PAW,feature_214
+min BASE_NECK-RIGHT_REAR_PAW,feature_215
+std_dev BASE_NECK-RIGHT_REAR_PAW,feature_216
+max BASE_NECK-TIP_TAIL,feature_217
+mean BASE_NECK-TIP_TAIL,feature_218
+median BASE_NECK-TIP_TAIL,feature_219
+min BASE_NECK-TIP_TAIL,feature_220
+std_dev BASE_NECK-TIP_TAIL,feature_221
+max BASE_TAIL-MID_TAIL,feature_222
+mean BASE_TAIL-MID_TAIL,feature_223
+median BASE_TAIL-MID_TAIL,feature_224
+min BASE_TAIL-MID_TAIL,feature_225
+std_dev BASE_TAIL-MID_TAIL,feature_226
+max BASE_TAIL-TIP_TAIL,feature_227
+mean BASE_TAIL-TIP_TAIL,feature_228
+median BASE_TAIL-TIP_TAIL,feature_229
+min BASE_TAIL-TIP_TAIL,feature_230
+std_dev BASE_TAIL-TIP_TAIL,feature_231
+max CENTER_SPINE-BASE_TAIL,feature_232
+mean CENTER_SPINE-BASE_TAIL,feature_233
+median CENTER_SPINE-BASE_TAIL,feature_234
+min CENTER_SPINE-BASE_TAIL,feature_235
+std_dev CENTER_SPINE-BASE_TAIL,feature_236
+max CENTER_SPINE-LEFT_REAR_PAW,feature_237
+mean CENTER_SPINE-LEFT_REAR_PAW,feature_238
+median CENTER_SPINE-LEFT_REAR_PAW,feature_239
+min CENTER_SPINE-LEFT_REAR_PAW,feature_240
+std_dev CENTER_SPINE-LEFT_REAR_PAW,feature_241
+max CENTER_SPINE-MID_TAIL,feature_242
+mean CENTER_SPINE-MID_TAIL,feature_243
+median CENTER_SPINE-MID_TAIL,feature_244
+min CENTER_SPINE-MID_TAIL,feature_245
+std_dev CENTER_SPINE-MID_TAIL,feature_246
+max CENTER_SPINE-RIGHT_REAR_PAW,feature_247
+mean CENTER_SPINE-RIGHT_REAR_PAW,feature_248
+median CENTER_SPINE-RIGHT_REAR_PAW,feature_249
+min CENTER_SPINE-RIGHT_REAR_PAW,feature_250
+std_dev CENTER_SPINE-RIGHT_REAR_PAW,feature_251
+max CENTER_SPINE-TIP_TAIL,feature_252
+mean CENTER_SPINE-TIP_TAIL,feature_253
+median CENTER_SPINE-TIP_TAIL,feature_254
+min CENTER_SPINE-TIP_TAIL,feature_255
+std_dev CENTER_SPINE-TIP_TAIL,feature_256
+max LEFT_EAR-BASE_NECK,feature_257
+mean LEFT_EAR-BASE_NECK,feature_258
+median LEFT_EAR-BASE_NECK,feature_259
+min LEFT_EAR-BASE_NECK,feature_260
+std_dev LEFT_EAR-BASE_NECK,feature_261
+max LEFT_EAR-BASE_TAIL,feature_262
+mean LEFT_EAR-BASE_TAIL,feature_263
+median LEFT_EAR-BASE_TAIL,feature_264
+min LEFT_EAR-BASE_TAIL,feature_265
+std_dev LEFT_EAR-BASE_TAIL,feature_266
+max LEFT_EAR-CENTER_SPINE,feature_267
+mean LEFT_EAR-CENTER_SPINE,feature_268
+median LEFT_EAR-CENTER_SPINE,feature_269
+min LEFT_EAR-CENTER_SPINE,feature_270
+std_dev LEFT_EAR-CENTER_SPINE,feature_271
+max LEFT_EAR-LEFT_FRONT_PAW,feature_272
+mean LEFT_EAR-LEFT_FRONT_PAW,feature_273
+median LEFT_EAR-LEFT_FRONT_PAW,feature_274
+min LEFT_EAR-LEFT_FRONT_PAW,feature_275
+std_dev LEFT_EAR-LEFT_FRONT_PAW,feature_276
+max LEFT_EAR-LEFT_REAR_PAW,feature_277
+mean LEFT_EAR-LEFT_REAR_PAW,feature_278
+median LEFT_EAR-LEFT_REAR_PAW,feature_279
+min LEFT_EAR-LEFT_REAR_PAW,feature_280
+std_dev LEFT_EAR-LEFT_REAR_PAW,feature_281
+max LEFT_EAR-MID_TAIL,feature_282
+mean LEFT_EAR-MID_TAIL,feature_283
+median LEFT_EAR-MID_TAIL,feature_284
+min LEFT_EAR-MID_TAIL,feature_285
+std_dev LEFT_EAR-MID_TAIL,feature_286
+max LEFT_EAR-RIGHT_EAR,feature_287
+mean LEFT_EAR-RIGHT_EAR,feature_288
+median LEFT_EAR-RIGHT_EAR,feature_289
+min LEFT_EAR-RIGHT_EAR,feature_290
+std_dev LEFT_EAR-RIGHT_EAR,feature_291
+max LEFT_EAR-RIGHT_FRONT_PAW,feature_292
+mean LEFT_EAR-RIGHT_FRONT_PAW,feature_293
+median LEFT_EAR-RIGHT_FRONT_PAW,feature_294
+min LEFT_EAR-RIGHT_FRONT_PAW,feature_295
+std_dev LEFT_EAR-RIGHT_FRONT_PAW,feature_296
+max LEFT_EAR-RIGHT_REAR_PAW,feature_297
+mean LEFT_EAR-RIGHT_REAR_PAW,feature_298
+median LEFT_EAR-RIGHT_REAR_PAW,feature_299
+min LEFT_EAR-RIGHT_REAR_PAW,feature_300
+std_dev LEFT_EAR-RIGHT_REAR_PAW,feature_301
+max LEFT_EAR-TIP_TAIL,feature_302
+mean LEFT_EAR-TIP_TAIL,feature_303
+median LEFT_EAR-TIP_TAIL,feature_304
+min LEFT_EAR-TIP_TAIL,feature_305
+std_dev LEFT_EAR-TIP_TAIL,feature_306
+max LEFT_FRONT_PAW-BASE_TAIL,feature_307
+mean LEFT_FRONT_PAW-BASE_TAIL,feature_308
+median LEFT_FRONT_PAW-BASE_TAIL,feature_309
+min LEFT_FRONT_PAW-BASE_TAIL,feature_310
+std_dev LEFT_FRONT_PAW-BASE_TAIL,feature_311
+max LEFT_FRONT_PAW-CENTER_SPINE,feature_312
+mean LEFT_FRONT_PAW-CENTER_SPINE,feature_313
+median LEFT_FRONT_PAW-CENTER_SPINE,feature_314
+min LEFT_FRONT_PAW-CENTER_SPINE,feature_315
+std_dev LEFT_FRONT_PAW-CENTER_SPINE,feature_316
+max LEFT_FRONT_PAW-LEFT_REAR_PAW,feature_317
+mean LEFT_FRONT_PAW-LEFT_REAR_PAW,feature_318
+median LEFT_FRONT_PAW-LEFT_REAR_PAW,feature_319
+min LEFT_FRONT_PAW-LEFT_REAR_PAW,feature_320
+std_dev LEFT_FRONT_PAW-LEFT_REAR_PAW,feature_321
+max LEFT_FRONT_PAW-MID_TAIL,feature_322
+mean LEFT_FRONT_PAW-MID_TAIL,feature_323
+median LEFT_FRONT_PAW-MID_TAIL,feature_324
+min LEFT_FRONT_PAW-MID_TAIL,feature_325
+std_dev LEFT_FRONT_PAW-MID_TAIL,feature_326
+max LEFT_FRONT_PAW-RIGHT_FRONT_PAW,feature_327
+mean LEFT_FRONT_PAW-RIGHT_FRONT_PAW,feature_328
+median LEFT_FRONT_PAW-RIGHT_FRONT_PAW,feature_329
+min LEFT_FRONT_PAW-RIGHT_FRONT_PAW,feature_330
+std_dev LEFT_FRONT_PAW-RIGHT_FRONT_PAW,feature_331
+max LEFT_FRONT_PAW-RIGHT_REAR_PAW,feature_332
+mean LEFT_FRONT_PAW-RIGHT_REAR_PAW,feature_333
+median LEFT_FRONT_PAW-RIGHT_REAR_PAW,feature_334
+min LEFT_FRONT_PAW-RIGHT_REAR_PAW,feature_335
+std_dev LEFT_FRONT_PAW-RIGHT_REAR_PAW,feature_336
+max LEFT_FRONT_PAW-TIP_TAIL,feature_337
+mean LEFT_FRONT_PAW-TIP_TAIL,feature_338
+median LEFT_FRONT_PAW-TIP_TAIL,feature_339
+min LEFT_FRONT_PAW-TIP_TAIL,feature_340
+std_dev LEFT_FRONT_PAW-TIP_TAIL,feature_341
+max LEFT_REAR_PAW-BASE_TAIL,feature_342
+mean LEFT_REAR_PAW-BASE_TAIL,feature_343
+median LEFT_REAR_PAW-BASE_TAIL,feature_344
+min LEFT_REAR_PAW-BASE_TAIL,feature_345
+std_dev LEFT_REAR_PAW-BASE_TAIL,feature_346
+max LEFT_REAR_PAW-MID_TAIL,feature_347
+mean LEFT_REAR_PAW-MID_TAIL,feature_348
+median LEFT_REAR_PAW-MID_TAIL,feature_349
+min LEFT_REAR_PAW-MID_TAIL,feature_350
+std_dev LEFT_REAR_PAW-MID_TAIL,feature_351
+max LEFT_REAR_PAW-RIGHT_REAR_PAW,feature_352
+mean LEFT_REAR_PAW-RIGHT_REAR_PAW,feature_353
+median LEFT_REAR_PAW-RIGHT_REAR_PAW,feature_354
+min LEFT_REAR_PAW-RIGHT_REAR_PAW,feature_355
+std_dev LEFT_REAR_PAW-RIGHT_REAR_PAW,feature_356
+max LEFT_REAR_PAW-TIP_TAIL,feature_357
+mean LEFT_REAR_PAW-TIP_TAIL,feature_358
+median LEFT_REAR_PAW-TIP_TAIL,feature_359
+min LEFT_REAR_PAW-TIP_TAIL,feature_360
+std_dev LEFT_REAR_PAW-TIP_TAIL,feature_361
+max MID_TAIL-TIP_TAIL,feature_362
+mean MID_TAIL-TIP_TAIL,feature_363
+median MID_TAIL-TIP_TAIL,feature_364
+min MID_TAIL-TIP_TAIL,feature_365
+std_dev MID_TAIL-TIP_TAIL,feature_366
+max NOSE-BASE_NECK,feature_367
+mean NOSE-BASE_NECK,feature_368
+median NOSE-BASE_NECK,feature_369
+min NOSE-BASE_NECK,feature_370
+std_dev NOSE-BASE_NECK,feature_371
+max NOSE-BASE_TAIL,feature_372
+mean NOSE-BASE_TAIL,feature_373
+median NOSE-BASE_TAIL,feature_374
+min NOSE-BASE_TAIL,feature_375
+std_dev NOSE-BASE_TAIL,feature_376
+max NOSE-CENTER_SPINE,feature_377
+mean NOSE-CENTER_SPINE,feature_378
+median NOSE-CENTER_SPINE,feature_379
+min NOSE-CENTER_SPINE,feature_380
+std_dev NOSE-CENTER_SPINE,feature_381
+max NOSE-LEFT_EAR,feature_382
+mean NOSE-LEFT_EAR,feature_383
+median NOSE-LEFT_EAR,feature_384
+min NOSE-LEFT_EAR,feature_385
+std_dev NOSE-LEFT_EAR,feature_386
+max NOSE-LEFT_FRONT_PAW,feature_387
+mean NOSE-LEFT_FRONT_PAW,feature_388
+median NOSE-LEFT_FRONT_PAW,feature_389
+min NOSE-LEFT_FRONT_PAW,feature_390
+std_dev NOSE-LEFT_FRONT_PAW,feature_391
+max NOSE-LEFT_REAR_PAW,feature_392
+mean NOSE-LEFT_REAR_PAW,feature_393
+median NOSE-LEFT_REAR_PAW,feature_394
+min NOSE-LEFT_REAR_PAW,feature_395
+std_dev NOSE-LEFT_REAR_PAW,feature_396
+max NOSE-MID_TAIL,feature_397
+mean NOSE-MID_TAIL,feature_398
+median NOSE-MID_TAIL,feature_399
+min NOSE-MID_TAIL,feature_400
+std_dev NOSE-MID_TAIL,feature_401
+max NOSE-RIGHT_EAR,feature_402
+mean NOSE-RIGHT_EAR,feature_403
+median NOSE-RIGHT_EAR,feature_404
+min NOSE-RIGHT_EAR,feature_405
+std_dev NOSE-RIGHT_EAR,feature_406
+max NOSE-RIGHT_FRONT_PAW,feature_407
+mean NOSE-RIGHT_FRONT_PAW,feature_408
+median NOSE-RIGHT_FRONT_PAW,feature_409
+min NOSE-RIGHT_FRONT_PAW,feature_410
+std_dev NOSE-RIGHT_FRONT_PAW,feature_411
+max NOSE-RIGHT_REAR_PAW,feature_412
+mean NOSE-RIGHT_REAR_PAW,feature_413
+median NOSE-RIGHT_REAR_PAW,feature_414
+min NOSE-RIGHT_REAR_PAW,feature_415
+std_dev NOSE-RIGHT_REAR_PAW,feature_416
+max NOSE-TIP_TAIL,feature_417
+mean NOSE-TIP_TAIL,feature_418
+median NOSE-TIP_TAIL,feature_419
+min NOSE-TIP_TAIL,feature_420
+std_dev NOSE-TIP_TAIL,feature_421
+max RIGHT_EAR-BASE_NECK,feature_422
+mean RIGHT_EAR-BASE_NECK,feature_423
+median RIGHT_EAR-BASE_NECK,feature_424
+min RIGHT_EAR-BASE_NECK,feature_425
+std_dev RIGHT_EAR-BASE_NECK,feature_426
+max RIGHT_EAR-BASE_TAIL,feature_427
+mean RIGHT_EAR-BASE_TAIL,feature_428
+median RIGHT_EAR-BASE_TAIL,feature_429
+min RIGHT_EAR-BASE_TAIL,feature_430
+std_dev RIGHT_EAR-BASE_TAIL,feature_431
+max RIGHT_EAR-CENTER_SPINE,feature_432
+mean RIGHT_EAR-CENTER_SPINE,feature_433
+median RIGHT_EAR-CENTER_SPINE,feature_434
+min RIGHT_EAR-CENTER_SPINE,feature_435
+std_dev RIGHT_EAR-CENTER_SPINE,feature_436
+max RIGHT_EAR-LEFT_FRONT_PAW,feature_437
+mean RIGHT_EAR-LEFT_FRONT_PAW,feature_438
+median RIGHT_EAR-LEFT_FRONT_PAW,feature_439
+min RIGHT_EAR-LEFT_FRONT_PAW,feature_440
+std_dev RIGHT_EAR-LEFT_FRONT_PAW,feature_441
+max RIGHT_EAR-LEFT_REAR_PAW,feature_442
+mean RIGHT_EAR-LEFT_REAR_PAW,feature_443
+median RIGHT_EAR-LEFT_REAR_PAW,feature_444
+min RIGHT_EAR-LEFT_REAR_PAW,feature_445
+std_dev RIGHT_EAR-LEFT_REAR_PAW,feature_446
+max RIGHT_EAR-MID_TAIL,feature_447
+mean RIGHT_EAR-MID_TAIL,feature_448
+median RIGHT_EAR-MID_TAIL,feature_449
+min RIGHT_EAR-MID_TAIL,feature_450
+std_dev RIGHT_EAR-MID_TAIL,feature_451
+max RIGHT_EAR-RIGHT_FRONT_PAW,feature_452
+mean RIGHT_EAR-RIGHT_FRONT_PAW,feature_453
+median RIGHT_EAR-RIGHT_FRONT_PAW,feature_454
+min RIGHT_EAR-RIGHT_FRONT_PAW,feature_455
+std_dev RIGHT_EAR-RIGHT_FRONT_PAW,feature_456
+max RIGHT_EAR-RIGHT_REAR_PAW,feature_457
+mean RIGHT_EAR-RIGHT_REAR_PAW,feature_458
+median RIGHT_EAR-RIGHT_REAR_PAW,feature_459
+min RIGHT_EAR-RIGHT_REAR_PAW,feature_460
+std_dev RIGHT_EAR-RIGHT_REAR_PAW,feature_461
+max RIGHT_EAR-TIP_TAIL,feature_462
+mean RIGHT_EAR-TIP_TAIL,feature_463
+median RIGHT_EAR-TIP_TAIL,feature_464
+min RIGHT_EAR-TIP_TAIL,feature_465
+std_dev RIGHT_EAR-TIP_TAIL,feature_466
+max RIGHT_FRONT_PAW-BASE_TAIL,feature_467
+mean RIGHT_FRONT_PAW-BASE_TAIL,feature_468
+median RIGHT_FRONT_PAW-BASE_TAIL,feature_469
+min RIGHT_FRONT_PAW-BASE_TAIL,feature_470
+std_dev RIGHT_FRONT_PAW-BASE_TAIL,feature_471
+max RIGHT_FRONT_PAW-CENTER_SPINE,feature_472
+mean RIGHT_FRONT_PAW-CENTER_SPINE,feature_473
+median RIGHT_FRONT_PAW-CENTER_SPINE,feature_474
+min RIGHT_FRONT_PAW-CENTER_SPINE,feature_475
+std_dev RIGHT_FRONT_PAW-CENTER_SPINE,feature_476
+max RIGHT_FRONT_PAW-LEFT_REAR_PAW,feature_477
+mean RIGHT_FRONT_PAW-LEFT_REAR_PAW,feature_478
+median RIGHT_FRONT_PAW-LEFT_REAR_PAW,feature_479
+min RIGHT_FRONT_PAW-LEFT_REAR_PAW,feature_480
+std_dev RIGHT_FRONT_PAW-LEFT_REAR_PAW,feature_481
+max RIGHT_FRONT_PAW-MID_TAIL,feature_482
+mean RIGHT_FRONT_PAW-MID_TAIL,feature_483
+median RIGHT_FRONT_PAW-MID_TAIL,feature_484
+min RIGHT_FRONT_PAW-MID_TAIL,feature_485
+std_dev RIGHT_FRONT_PAW-MID_TAIL,feature_486
+max RIGHT_FRONT_PAW-RIGHT_REAR_PAW,feature_487
+mean RIGHT_FRONT_PAW-RIGHT_REAR_PAW,feature_488
+median RIGHT_FRONT_PAW-RIGHT_REAR_PAW,feature_489
+min RIGHT_FRONT_PAW-RIGHT_REAR_PAW,feature_490
+std_dev RIGHT_FRONT_PAW-RIGHT_REAR_PAW,feature_491
+max RIGHT_FRONT_PAW-TIP_TAIL,feature_492
+mean RIGHT_FRONT_PAW-TIP_TAIL,feature_493
+median RIGHT_FRONT_PAW-TIP_TAIL,feature_494
+min RIGHT_FRONT_PAW-TIP_TAIL,feature_495
+std_dev RIGHT_FRONT_PAW-TIP_TAIL,feature_496
+max RIGHT_REAR_PAW-BASE_TAIL,feature_497
+mean RIGHT_REAR_PAW-BASE_TAIL,feature_498
+median RIGHT_REAR_PAW-BASE_TAIL,feature_499
+min RIGHT_REAR_PAW-BASE_TAIL,feature_500
+std_dev RIGHT_REAR_PAW-BASE_TAIL,feature_501
+max RIGHT_REAR_PAW-MID_TAIL,feature_502
+mean RIGHT_REAR_PAW-MID_TAIL,feature_503
+median RIGHT_REAR_PAW-MID_TAIL,feature_504
+min RIGHT_REAR_PAW-MID_TAIL,feature_505
+std_dev RIGHT_REAR_PAW-MID_TAIL,feature_506
+max RIGHT_REAR_PAW-TIP_TAIL,feature_507
+mean RIGHT_REAR_PAW-TIP_TAIL,feature_508
+median RIGHT_REAR_PAW-TIP_TAIL,feature_509
+min RIGHT_REAR_PAW-TIP_TAIL,feature_510
+std_dev RIGHT_REAR_PAW-TIP_TAIL,feature_511
+max BASE_NECK speed,feature_512
+mean BASE_NECK speed,feature_513
+median BASE_NECK speed,feature_514
+min BASE_NECK speed,feature_515
+std_dev BASE_NECK speed,feature_516
+max BASE_TAIL speed,feature_517
+mean BASE_TAIL speed,feature_518
+median BASE_TAIL speed,feature_519
+min BASE_TAIL speed,feature_520
+std_dev BASE_TAIL speed,feature_521
+max CENTER_SPINE speed,feature_522
+mean CENTER_SPINE speed,feature_523
+median CENTER_SPINE speed,feature_524
+min CENTER_SPINE speed,feature_525
+std_dev CENTER_SPINE speed,feature_526
+max LEFT_EAR speed,feature_527
+mean LEFT_EAR speed,feature_528
+median LEFT_EAR speed,feature_529
+min LEFT_EAR speed,feature_530
+std_dev LEFT_EAR speed,feature_531
+max LEFT_FRONT_PAW speed,feature_532
+mean LEFT_FRONT_PAW speed,feature_533
+median LEFT_FRONT_PAW speed,feature_534
+min LEFT_FRONT_PAW speed,feature_535
+std_dev LEFT_FRONT_PAW speed,feature_536
+max LEFT_REAR_PAW speed,feature_537
+mean LEFT_REAR_PAW speed,feature_538
+median LEFT_REAR_PAW speed,feature_539
+min LEFT_REAR_PAW speed,feature_540
+std_dev LEFT_REAR_PAW speed,feature_541
+max MID_TAIL speed,feature_542
+mean MID_TAIL speed,feature_543
+median MID_TAIL speed,feature_544
+min MID_TAIL speed,feature_545
+std_dev MID_TAIL speed,feature_546
+max NOSE speed,feature_547
+mean NOSE speed,feature_548
+median NOSE speed,feature_549
+min NOSE speed,feature_550
+std_dev NOSE speed,feature_551
+max RIGHT_EAR speed,feature_552
+mean RIGHT_EAR speed,feature_553
+median RIGHT_EAR speed,feature_554
+min RIGHT_EAR speed,feature_555
+std_dev RIGHT_EAR speed,feature_556
+max RIGHT_FRONT_PAW speed,feature_557
+mean RIGHT_FRONT_PAW speed,feature_558
+median RIGHT_FRONT_PAW speed,feature_559
+min RIGHT_FRONT_PAW speed,feature_560
+std_dev RIGHT_FRONT_PAW speed,feature_561
+max RIGHT_REAR_PAW speed,feature_562
+mean RIGHT_REAR_PAW speed,feature_563
+median RIGHT_REAR_PAW speed,feature_564
+min RIGHT_REAR_PAW speed,feature_565
+std_dev RIGHT_REAR_PAW speed,feature_566
+max TIP_TAIL speed,feature_567
+mean TIP_TAIL speed,feature_568
+median TIP_TAIL speed,feature_569
+min TIP_TAIL speed,feature_570
+std_dev TIP_TAIL speed,feature_571
+mean right front paw velocity direction,feature_572
+std_dev right front paw velocity direction,feature_573
+max right front paw velocity magnitude,feature_574
+mean right front paw velocity magnitude,feature_575
+median right front paw velocity magnitude,feature_576
+min right front paw velocity magnitude,feature_577
+std_dev right front paw velocity magnitude,feature_578
