@@ -79,3 +79,4 @@ p = plot_clusters(, prob = 0.7)
 p.save(f"clustering_results/plot_clusters_embedding_method_{embedding_method}_n_neighbors_{n_neighbors}_min_dist_{min_dist}_clustering_method_{clustering_method}_min_cluster_size_{min_cluster_size}_min_samples_{min_samples}_cluster_selection_epsilon_{cluster_selection_epsilon}_{date}.pdf", width=10, height=10, dpi=300)
 ```
  
+11. To embed previously annotated data into the UMAP space, make sure the file containing annotations is named `annotated_bouts.csv`. The annotated frames will appear in the plot as black dots. 
